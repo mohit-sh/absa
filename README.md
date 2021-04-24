@@ -4,7 +4,7 @@ Result table from the paper
 
 | Method | Restaurant | Laptop |
 | --- | --- | --- |
-| Majority | 0.535 | 0.65 | 
+| Majority | 0.65 | 53.45 | 
 | LSTM | 0.743 | 0.665 |
 | TD-LSTM | 0.756 | 0.681 |
 | AE-LSTM | 0.762 | 0.689 |
@@ -15,7 +15,7 @@ Results from my implementation
 
 | Method | Restaurant | Laptop | Match |
 | --- | --- | --- | --- |
-| Majority | 0.535 | 0.65 | **YES** | 
+| Majority | 0.65 | 0.535 | **YES** | 
 | LSTM | 0.7482 | 0.6888 | **YES** |
 | TD-LSTM |  |  | |
 | AE-LSTM |  |  | |
