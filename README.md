@@ -16,10 +16,15 @@ Results from my implementation
 | Method | Restaurant | Laptop | Match |
 | --- | --- | --- | --- |
 | Majority | 0.535 | 0.65 | **YES** | 
-| LSTM |  |  | |
+| LSTM | 0.7482 | 0.6888 | **YES** |
 | TD-LSTM |  |  | |
 | AE-LSTM |  |  | |
 | ATAE-LSTM |  |  | |
 | IAN |  |  | |
 
+**NOTE**: The LSTM baseline is of questionable validity. If we don't consider aspect terms, the problem becomes a multi-label classification (for any given text, the sentiment labels corresponding to each aspect term are all valid labels for the text.) and not multi-class as formulated in the paper. 
+
+**TODO**  
+
+- [ ] Implement a multi-task LSTM baseline.
 
